@@ -9,7 +9,7 @@ Toy project. I have no intention to maintain this.
 
 # Usage
 
-Given that `localhost:3000` is splitting stats like this. Example server included in `examples/server.js`.
+Given that `localhost:3000` is spitting stats like this. Example server included in `examples/server.js`.
 You can start it with `node example/server.js`
 
 ```json
