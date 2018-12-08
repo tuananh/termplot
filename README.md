@@ -29,9 +29,11 @@ You can start it with `node example/server.js`
 
 You can use the command below to graph the values over time.
 
-   $ termplot --url http://localhost:3000 --rows 10 mem.Heap
+```bash
+$ termplot --url http://localhost:3000 --rows 10 mem.Heap
+```
 
-# TODO
+# Todo
 
 - Multiple field paths
 - Color
