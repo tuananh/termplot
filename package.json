@@ -1,0 +1,25 @@
+{
+  "name": "termplot",
+  "version": "1.0.0",
+  "description": "Tracks expvar-like (JSON) metrics and plot their evolution over time right in the terminal",
+  "main": "src/index.js",
+  "bin": {
+    "termplot": "bin/termplot.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "npx prettier **/*.js --single-quote --no-semi --tab-width=4 --write"
+  },
+  "author": "Tuan Anh Tran <me@tuananh.org> (https://tuananh.org)",
+  "license": "MIT",
+  "dependencies": {
+    "asciichart": "1.5.7",
+    "clear": "0.1.0",
+    "got": "9.3.2",
+    "lodash": "4.17.11",
+    "meow": "5.0.0"
+  },
+  "devDependencies": {
+    "prettier": "1.15.3"
+  }
+}
